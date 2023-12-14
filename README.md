@@ -1,6 +1,13 @@
 # kh-polarity
 Polarity Classification for Khmer
 
+***Please wait. We are preparing ...  
+
+## Corpus Information
+
+### Version 1.0
+
+
 ## Experiment Logs
 
 [1]. [kh-polarity-exp1](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp1.md)  
