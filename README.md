@@ -57,7 +57,7 @@ __label__positive ▁ការងា រ មាន ស្ ថ ិ រ ភាព 
 (base) ye@lst-gpu-3090:~/tmp/kh-polarity/corpus/exp/fasttext_format$
 ```
 
-### Version 1.0
+### kh-polarity (Version 1.0)
 
 The complete dataset for kh-polarity version 1.0 is stored in the [corpus/version-1/](https://github.com/ye-kyaw-thu/kh-polarity/tree/main/corpus/version-1) folder. The format of the dataset is 'sentence ||| keyword ||| polarity', as illustrated below:    
 
