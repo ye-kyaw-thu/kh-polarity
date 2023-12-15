@@ -7,16 +7,6 @@ Polarity Classification for Khmer
 
 ### Version 1.0
 
-## Presentation Slide
-
-### At the 4th NLP/AI Workshop 2022
-
-- [WS-12_SentimentPolarityClassificationForKhmer.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/NLP_AI_workshop_2022/WS-12_SentimentPolarityClassificationForKhmer.pdf): This is the presentation slide for the 4th NLP/AI Workshop 2022, held in Chiang Mai, Thailand.    
-  
-### At the iSAI-NLP Conference 2023
-
-- [kh_polarity_talk.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/iSAI-NLP2023_conference/kh_polarity_talk.pdf): This is the presentation slide for the 18th iSAI-NLP 2023 conference, held in Bangkok, Thailand.    
-
 ## Code Information
 
 ### for Preprocessing
@@ -47,6 +37,15 @@ In this section, you will find detailed logs of our experiments. File No. 1 incl
 3. [kh-polarity-exp3](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp3.md): This log file is for Experiment 3, which significantly contributes to the results discussed in our paper.
 4. [testing-tabpfn.md](https://github.com/ye-kyaw-thu/error-overflow/blob/master/testing-tabpfn.md): This log file documents an experiment involving [TabPFN](https://github.com/automl/TabPFN) and [FastText](https://fasttext.cc/), with its latter part being crucial for our paper's findings.
 
+## Presentation Slide
+
+### At the 4th NLP/AI Workshop 2022
+
+- [WS-12_SentimentPolarityClassificationForKhmer.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/NLP_AI_workshop_2022/WS-12_SentimentPolarityClassificationForKhmer.pdf): This is the presentation slide for the 4th NLP/AI Workshop 2022, held in Chiang Mai, Thailand.    
+  
+### At the iSAI-NLP Conference 2023
+
+- [kh_polarity_talk.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/iSAI-NLP2023_conference/kh_polarity_talk.pdf): This is the presentation slide for the 18th iSAI-NLP 2023 conference, held in Bangkok, Thailand.    
 
 ## Citation
 
