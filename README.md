@@ -25,7 +25,7 @@ Polarity Classification for Khmer
 [3]. [rforest-classifier.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/rforest-classifier.py): Random-Forest Classifier  
 [4]. [svm-classifier.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/svm-classifier.py): Support Vector Machine (SVM) Classifier  
 [5]. [sgd-classifier2.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/sgd-classifier2.py): Stochastic Gradient Descent (SGD) Classifier   
-[6]. [kh-sgd.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/kh-sgd.py): Tuning with Stochastic Gradient Descent (SGD) Classifier    
+[6]. [sgd-tune-classifier.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/sgd-tune-classifier.py): Tuning with Stochastic Gradient Descent (SGD) Classifier    
 
 ## Experiment Logs
 
