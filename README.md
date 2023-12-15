@@ -9,8 +9,8 @@ Polarity Classification for Khmer
 
 ## Code Information
 
-[1]. [khnormal](https://github.com/sillsdev/khmer-character-specification/blob/master/python/scripts/khnormal), for Normalization  
-[2]. 
+[1]. [khnormal](https://github.com/sillsdev/khmer-character-specification/blob/master/python/scripts/khnormal), original or active code for Khmer Normalization  
+[2]. [](), we used this code for Normalization
 
 ## Experiment Logs
 
