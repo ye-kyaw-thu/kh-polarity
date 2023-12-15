@@ -23,7 +23,7 @@ $ tree ./corpus/
 4 directories, 5 files
 ```
 
-In the exp/ folder, you will find the training and test datasets used in our experiments. These datasets are formatted as comma-separated values (CSV) and are located under the exp/csv_format/ folder. We applied traditional machine learning methods such as K-nearest Neighbors (KNN), Decision Tree, Random Forest, Support Vector Machine (SVM), and Stochastic Gradient Descent (SGD) for Khmer polarity classification. The CSV format is as follows:   
+In the exp/ folder, you will find the training and test datasets used in our experiments. These datasets are formatted as comma-separated values (CSV) and are located under the [exp/csv_format/](https://github.com/ye-kyaw-thu/kh-polarity/tree/main/corpus/exp/csv_format) folder. We applied traditional machine learning methods such as K-nearest Neighbors (KNN), Decision Tree, Random Forest, Support Vector Machine (SVM), and Stochastic Gradient Descent (SGD) for Khmer polarity classification. The CSV format is as follows:   
 
 ```
 (base) ye@lst-gpu-3090:~/tmp/kh-polarity/corpus/exp/csv_format$ head -n 3 train.csv
