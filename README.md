@@ -40,11 +40,13 @@ Polarity Classification for Khmer
 
 ## Experiment Logs
 
-In this section, File No. 1 contains data cleaning and various preprocessing steps. The results presented in our paper are derived from the log files No. 2 and No. 3.    
+In this section, you will find detailed logs of our experiments. File No. 1 includes data cleaning and various preprocessing steps. File No. 2 details the results obtained using the first version of our classifiers. The results presented in our paper are primarily derived from log files No. 3 and the latter part of No. 4.
 
-[1]. [kh-polarity-exp1](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp1.md): This is the log file for Experiment 1.   
-[2]. [kh-polarity-exp2](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp2.md): This is the log file for Experiment 2.   
-[3]. [kh-polarity-exp3](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp3.md): This is the log file for Experiment 3.    
+1. [kh-polarity-exp1](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp1.md): This log file pertains to Experiment 1, focusing on data cleaning and preprocessing.
+2. [kh-polarity-exp2](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp2.md): This log file corresponds to Experiment 2, featuring the initial classifier results.
+3. [kh-polarity-exp3](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp3.md): This log file is for Experiment 3, which significantly contributes to the results discussed in our paper.
+4. [testing-tabpfn.md](https://github.com/ye-kyaw-thu/error-overflow/blob/master/testing-tabpfn.md): This log file documents an experiment involving [TabPFN](https://github.com/automl/TabPFN) and [FastText](https://fasttext.cc/), with its latter part being crucial for our paper's findings.
+
 
 ## Citation
 
