@@ -11,12 +11,12 @@ Polarity Classification for Khmer
 
 ### for Preprocessing
 
-[1]. [khnormal](https://github.com/sillsdev/khmer-character-specification/blob/master/python/scripts/khnormal), original or active code for Khmer Normalization  
-[2]. [khnormal.2.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/khnormal.2.py), we used this code for Khmer Normalization.    
-[3]. [cut-column.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/cut-column.pl), we used this code for fixing the number of class error.  
-[4]. [print-codepoint.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/print-codepoint.pl), we used this code for printing code points (decimal, unicode) of each Khmer character  
-[5]. [check-empty-field.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/check-empty-field.pl), we used this code for cleaning blank fields of Khmer polarity corpus  
-[6]. [break.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/break.py), we used this code for [SentencePiece](https://github.com/google/sentencepiece) segmentation.   
+[1]. [khnormal](https://github.com/sillsdev/khmer-character-specification/blob/master/python/scripts/khnormal), The original or active code for Khmer Normalization.    
+[2]. [khnormal.2.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/khnormal.2.py), This code was used for Khmer Normalization.    
+[3]. [cut-column.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/cut-column.pl), This code was used to fix the number of class errors.    
+[4]. [print-codepoint.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/print-codepoint.pl), This code was used for printing the code points (decimal, Unicode) of each Khmer character.  
+[5]. [check-empty-field.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/check-empty-field.pl), This code was used to clean blank fields in the Khmer polarity corpus.  
+[6]. [break.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/break.py), This code was used for [SentencePiece](https://github.com/google/sentencepiece) segmentation.   
 
 ### for Modeling
 
