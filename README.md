@@ -3,6 +3,8 @@ Polarity Classification for Khmer
 
 ***Please wait. We are preparing ...  
 
+Sentiment polarity classification is a natural language processing (NLP) technique that determines whether a given piece of text has a positive, negative, or neutral sentiment. We investigated the application of a well-known shallow neural network classifier, FastText, to the Khmer language, which is a low-resource language. To our knowledge, there isn’t a freely available polarity corpus for Khmer. Thus, one of the primary objectives of this research is to develop a human-annotated benchmark corpus tailored for sentiment analysis in this language. Our findings indicate that the FastText model achieves a precision and recall of 0.740 using our modest-sized Khmer polarity corpus, which consists of about 9,000 training sentences and about 1,000 testing sentences. Among traditional machine learning methods—K-Nearest Neighbors (KNN), Decision Tree, Random Forest, Support Vector Machine (SVM), and Stochastic Gradient Descent (SGD)—the Support Vector Machine (SVM) outperforms the rest.  
+
 ## Corpus Information
 
 Below is the tree structure of the corpus folder:  
