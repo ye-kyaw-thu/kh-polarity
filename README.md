@@ -16,7 +16,7 @@ Polarity Classification for Khmer
 [3]. [cut-column.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/cut-column.pl), we used this code for fixing the number of class error.  
 [4]. [print-codepoint.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/print-codepoint.pl), we used this code for printing code points (decimal, unicode) of each Khmer character  
 [5]. [check-empty-field.pl](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/check-empty-field.pl), we used this code for cleaning blank fields of Khmer polarity corpus  
-[6]. [break.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/break.py)  
+[6]. [break.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/break.py), we used this code for [SentencePiece](https://github.com/google/sentencepiece) segmentation.   
 
 ### for Modeling
 
