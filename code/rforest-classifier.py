@@ -2,9 +2,13 @@
 ## Written by Ye Kyaw Thu, 
 ## Affiliate Professor, IDRI, CADT, Cambodia
 ## Used for 4th NLP/AI Workshop, Chiang Mai, Experiment
-## Last updated: 3 Nov 2022
+## Last updated: 8 Feb 2023
 ## Reference:
 ## https://towardsdatascience.com/building-a-sentiment-classifier-using-scikit-learn-54c8e7c5d2f0
+## https://vitalflux.com/accuracy-precision-recall-f1-score-python-example/  
+## https://stackoverflow.com/questions/62792001/precision-and-recall-are-the-same-within-a-model
+## https://towardsdatascience.com/micro-macro-weighted-averages-of-f1-score-clearly-explained-b603420b292f
+## https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 
 import pandas as pd
 import re
@@ -101,6 +105,7 @@ import numpy as np
 
 # Import the Random Forests library
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import classification_report
 
 def train_and_show_scores_RFOREST(X: csr_matrix, y: np.array, title: str, model: str) -> None:
     X_train, X_valid, y_train, y_valid = train_test_split(
@@ -139,6 +144,9 @@ y_predict = rforest_unigram_counts.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
 
 rforest_unigram_tfidf = load('classifiers/rforest_unigram_tf-idf.joblib')
 score = rforest_unigram_tfidf.score(X_test, y_test)
@@ -149,6 +157,9 @@ y_predict = rforest_unigram_tfidf.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
 
 X_test = bigram_vectorizer.transform(polar_test['text'].values)
 X_test = bigram_tf_idf_transformer.transform(X_test)
@@ -163,6 +174,9 @@ y_predict = rforest_bigram_counts.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
 
 rforest_bigram_tfidf = load('classifiers/rforest_bigram_tf-idf.joblib')
 score = rforest_bigram_tfidf.score(X_test, y_test)
@@ -173,4 +187,6 @@ y_predict = rforest_bigram_tfidf.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
-
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
