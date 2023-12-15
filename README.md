@@ -97,7 +97,7 @@ The complete dataset for kh-polarity version 1.0 is stored in the [corpus/versio
 [5]. [sgd-classifier2.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/sgd-classifier2.py): Stochastic Gradient Descent (SGD) Classifier   
 [6]. [sgd-tune-classifier.py](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/code/sgd-tune-classifier.py): Tuning with Stochastic Gradient Descent (SGD) Classifier    
 
-For the FastText modeling, I utilized the command-line tool **fastText**. For guidance, I referred to this [tutorial](https://fasttext.cc/docs/en/supervised-tutorial.html). Details of the experiment can be found in this log file: [testing-tabpfn.md](https://github.com/ye-kyaw-thu/error-overflow/blob/master/testing-tabpfn.md), which documents an experiment involving [TabPFN](https://github.com/automl/TabPFN).  
+For the FastText modeling, I utilized the command-line tool **fastText**. For guidance, I referred to this [tutorial](https://fasttext.cc/docs/en/supervised-tutorial.html). Details of the experiment can be found in this log file: [testing-tabpfn.md](https://github.com/ye-kyaw-thu/error-overflow/blob/master/testing-tabpfn.md), which documents an experiment involving [TabPFN](https://github.com/automl/TabPFN). However, it's important to note that this TabPFN experiment is not yet completed and is not included in our paper.  
 
 ## Experiment Logs
 
