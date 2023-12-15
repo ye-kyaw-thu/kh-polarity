@@ -39,7 +39,7 @@ text,label
 ▁ចំណ ែក ▁ម ន្ត រី ▁ សិទ្ធិ ម ន ុ ស្ស ▁និង ▁អ្នក វិ ភ ា គ ▁យល់ ▁ថា ▁អ្វី ▁ដែល ▁លោក ▁ ហ៊ុន ▁ស ែន ▁លើក ▁ឡើង ▁មក ▁នោះ ▁ជា ▁វ ោ ហា រ សា ស្ត រ ▁ ន យោប ាយ ▁ដើម្បី ▁ប ន ្ល ំ ▁ការ ▁ពិ ត ▁ប៉ុណ្ណ ោះ ។,negative
 ```
 
-For experiments utilizing the FastText approach, a specific data format is required. FastText is a library for efficient learning of word representations and sentence classification. It is particularly useful for applications that benefit from understanding the nuances and meanings of words within large datasets. To accommodate FastText's requirements, we prepared our data in a format that is compatible with this library. This formatted data can be found under exp/fasttext_format/. The FastText format is structured as follows:  
+For experiments utilizing the FastText approach, a specific data format is required. FastText is a library for efficient learning of word representations and sentence classification. It is particularly useful for applications that benefit from understanding the nuances and meanings of words within large datasets. To accommodate FastText's requirements, we prepared our data in a format that is compatible with this library. This formatted data can be found under [exp/fasttext_format/](https://github.com/ye-kyaw-thu/kh-polarity/tree/main/corpus/exp/fasttext_format). The FastText format is structured as follows:  
 
 ```
 (base) ye@lst-gpu-3090:~/tmp/kh-polarity/corpus/exp/fasttext_format$ head -n 3 train.sentence.fasttext
