@@ -29,9 +29,11 @@ Polarity Classification for Khmer
 
 ## Experiment Logs
 
-[1]. [kh-polarity-exp1](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp1.md)  
-[2]. [kh-polarity-exp2](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp2.md)  
-[3]. [kh-polarity-exp3](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp3.md)  
+In this section, File No. 1 contains data cleaning and various preprocessing steps. The results presented in our paper are derived from the log files No. 2 and No. 3.    
+
+[1]. [kh-polarity-exp1](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp1.md): This is the log file for Experiment 1.   
+[2]. [kh-polarity-exp2](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp2.md): This is the log file for Experiment 2.   
+[3]. [kh-polarity-exp3](https://github.com/ye-kyaw-thu/error-overflow/blob/master/kh-polarity-exp3.md): This is the log file for Experiment 3.    
 
 ## Citation
 
