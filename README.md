@@ -9,13 +9,13 @@ Polarity Classification for Khmer
 
 ## Presentation Slide
 
-### at the 4th NLP/AI Workshop 2022
+### At the 4th NLP/AI Workshop 2022
 
-- [WS-12_SentimentPolarityClassificationForKhmer.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/NLP_AI_workshop_2022/WS-12_SentimentPolarityClassificationForKhmer.pdf): The presentation slide for the 4th NLP/AI Workshop 2022, Chiang Mai, Thailand.  
+- [WS-12_SentimentPolarityClassificationForKhmer.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/NLP_AI_workshop_2022/WS-12_SentimentPolarityClassificationForKhmer.pdf): This is the presentation slide for the 4th NLP/AI Workshop 2022, held in Chiang Mai, Thailand.    
   
-### at the 18th iSAI-NLP Conference 2023
+### At the iSAI-NLP Conference 2023
 
-- []()  
+- [kh_polarity_talk.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/iSAI-NLP2023_conference/kh_polarity_talk.pdf): This is the presentation slide for the 18th iSAI-NLP 2023 conference, held in Bangkok, Thailand.    
 
 ## Code Information
 
