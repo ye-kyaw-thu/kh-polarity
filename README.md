@@ -7,6 +7,9 @@ Polarity Classification for Khmer
 
 ### Version 1.0
 
+## Code Information
+
+[1]. [khnormal](https://github.com/sillsdev/khmer-character-specification/blob/master/python/scripts/khnormal), for Normalization  
 
 ## Experiment Logs
 
