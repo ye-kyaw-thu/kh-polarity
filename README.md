@@ -1,5 +1,4 @@
 # kh-polarity
-Polarity Classification for Khmer
 
 ***Please wait. We are preparing ...***  
 
