@@ -2,9 +2,13 @@
 ## Written by Ye Kyaw Thu, 
 ## Affiliate Professor, IDRI, CADT, Cambodia
 ## Used for 4th NLP/AI Workshop, Chiang Mai, Experiment
-## Last updated: 3 Nov 2022
+## Last updated: 8 Feb 2023
 ## Reference:
 ## https://towardsdatascience.com/building-a-sentiment-classifier-using-scikit-learn-54c8e7c5d2f0
+## https://vitalflux.com/accuracy-precision-recall-f1-score-python-example/  
+## https://stackoverflow.com/questions/62792001/precision-and-recall-are-the-same-within-a-model
+## https://towardsdatascience.com/micro-macro-weighted-averages-of-f1-score-clearly-explained-b603420b292f
+## https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 
 import pandas as pd
 import re
@@ -53,7 +57,6 @@ unigram_tf_idf_transformer.fit(X_train_unigram)
 dump(unigram_tf_idf_transformer, 'data_preprocessors/unigram_tf_idf_transformer.joblib')
 
 # unigram_tf_idf_transformer = load('data_preprocessors/unigram_tf_idf_transformer.joblib')
-
 X_train_unigram_tf_idf = unigram_tf_idf_transformer.transform(X_train_unigram)
 
 save_npz('vectorized_data/X_train_unigram_tf_idf.npz', X_train_unigram_tf_idf)
@@ -101,6 +104,8 @@ import numpy as np
 
 # Import k-nearest neighbors library
 from sklearn.neighbors import KNeighborsClassifier
+#from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
+from sklearn.metrics import classification_report
 
 def train_and_show_scores_KNN(X: csr_matrix, y: np.array, title: str, model: str) -> None:
     X_train, X_valid, y_train, y_valid = train_test_split(
@@ -134,11 +139,16 @@ knn_unigram_counts = load('classifiers/knn_unigram_count.joblib')
 score = knn_unigram_counts.score(X_test, y_test)
 print('KNN Test Result, Unigram Counts: ', score)
 
+y_pred = knn_unigram_counts.predict(X_test)
+
 # Predict the class of test set
 y_predict = knn_unigram_counts.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
 
 knn_unigram_tfidf = load('classifiers/knn_unigram_tf-idf.joblib')
 score = knn_unigram_tfidf.score(X_test, y_test)
@@ -149,6 +159,9 @@ y_predict = knn_unigram_tfidf.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
 
 X_test = bigram_vectorizer.transform(polar_test['text'].values)
 X_test = bigram_tf_idf_transformer.transform(X_test)
@@ -163,6 +176,9 @@ y_predict = knn_bigram_counts.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
+print('')
 
 knn_bigram_tfidf = load('classifiers/knn_bigram_tf-idf.joblib')
 score = knn_bigram_tfidf.score(X_test, y_test)
@@ -173,3 +189,5 @@ y_predict = knn_bigram_tfidf.predict(X_test)
 
 err_rate = (y_predict != y_test).mean()
 print('Error Rate: %.2f' % err_rate)
+print('----------')
+print(classification_report(y_test, y_predict))
