@@ -128,8 +128,8 @@ Sokheng Khim, Ye Kyaw Thu and Sethserey Sam, "Sentiment Polarity Classification 
 [2]. Uddin, S., Haque, I., Lu, H., Moni, M. A., & Gide, E. (2022). Comparative performance analysis of K-nearest neighbour (KNN) algorithm and its different variants for disease prediction. Scientific Reports, 12(1), 1-11.  
 [3]. Quinlan, J. R. (1996). Learning decision tree classifiers. ACM Computing Surveys (CSUR), 28(1), 71-72.  
 [4] Song, Y. Y., & Ying, L. U. (2015). Decision tree methods: applications for classification and prediction. Shanghai archives of psychiatry, 27(2), 130.   
-[5]. Gao, D., Zhang, Y. X., & Zhao, Y. H. (2009). Random forest algorithm for classification of multiwavelength data. Research in Astronomy and Astrophysics, 9(2), 220. 
+[5]. Gao, D., Zhang, Y. X., & Zhao, Y. H. (2009). Random forest algorithm for classification of multiwavelength data. Research in Astronomy and Astrophysics, 9(2), 220.  
 [6]. Bhavsar, H., & Panchal, M. H. (2012). A review on support vector machine for data classification. International Journal of Advanced Research in Computer Engineering & Technology (IJARCET), 1(10), 185-189.  
-[7]. Sharma, A. (2018). Guided stochastic gradient descent algorithm for inconsistent datasets. Applied Soft Computing, 73, 1068-1080.
-[8]. Wang, J., & Joshi, G. (2021). Cooperative SGD: A unified framework for the design and analysis of local-update SGD algorithms. Journal of Machine Learning Research, 22.
-[9]. A. Joulin, E. Grave, P. Bojanowski, T. Mikolov, Bag of Tricks for Efficient Text Classification
+[7]. Sharma, A. (2018). Guided stochastic gradient descent algorithm for inconsistent datasets. Applied Soft Computing, 73, 1068-1080.  
+[8]. Wang, J., & Joshi, G. (2021). Cooperative SGD: A unified framework for the design and analysis of local-update SGD algorithms. Journal of Machine Learning Research, 22.  
+[9]. A. Joulin, E. Grave, P. Bojanowski, T. Mikolov, Bag of Tricks for Efficient Text Classification  
