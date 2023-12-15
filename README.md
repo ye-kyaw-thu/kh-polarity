@@ -7,6 +7,16 @@ Polarity Classification for Khmer
 
 ### Version 1.0
 
+## Presentation Slide
+
+### at the 4th NLP/AI Workshop 2022
+
+- [WS-12_SentimentPolarityClassificationForKhmer.pdf](https://github.com/ye-kyaw-thu/kh-polarity/blob/main/slides/NLP_AI_workshop_2022/WS-12_SentimentPolarityClassificationForKhmer.pdf): The presentation slide for the 4th NLP/AI Workshop 2022, Chiang Mai, Thailand.  
+  
+### at the 18th iSAI-NLP Conference 2023
+
+- []()  
+
 ## Code Information
 
 ### for Preprocessing
