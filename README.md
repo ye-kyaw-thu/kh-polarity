@@ -123,7 +123,7 @@ In this section, you will find detailed logs of our experiments. File No. 1 incl
 
 If you plan to use any code snippets or the kh-polarity corpus in your research, we kindly ask that you acknowledge and cite the following paper:   
 
-Sokheng Khim, Ye Kyaw Thu and Sethserey Sam, "Sentiment Polarity Classification for Khmer", In Proceedings of the 18th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP 2023), Nov 27 to 29, 2023, Bangkok, Thailand, pp. xx-xx  
+Sokheng Khim, Ye Kyaw Thu and Sethserey Sam, "Sentiment Polarity Classification for Khmer", In Proceedings of the 18th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP 2023), Nov 27 to 29, 2023, Bangkok, Thailand, pp. 1-6  
 
 ## References
 
